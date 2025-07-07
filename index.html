@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const links = document.querySelectorAll("a[href^='#']");
+      links.forEach(link => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) target.scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <!-- Title Page -->
+  <section class="title-page">
+    <video autoplay muted loop class="bg-video" id="bgVideo">
+      <source src="image/120615_1_21mag-interview-putnam_wg_1080p.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="title-overlay">
+      <img src="image/Logo-1-removebg-preview.png" alt="Logo" class="logo" />
+      <video autoplay loop muted class="doll-video">
+        <source src="russian-doll-360.mp4" type="video/mp4">
+      </video>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- About Section start-->
+ <!-- Logo  -->
+  <div class="logo-row">
+  <img src="image/carosol/02.png" alt="Logo 2">
+  <img src="image/carosol/07.svg" alt="Logo 6">
+  <img src="image/carosol/03.png" alt="Logo 2">
+  <img src="image/carosol/04.jpg" alt="Logo 3">
+  <img src="image/carosol/05.jpg" alt="Logo 4">
+  <img src="image/carosol/06.png" alt="Logo 5">
+
+  <img src="image/carosol/08.png" alt="Logo 7">
+  <img src="image/carosol/09.svg" alt="Logo 8">
+</div>
+
+
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <img src="image/Logo-1-removebg-preview.png" alt="Logo" class="logoA" />
+    <div class="subtext">
+       <video autoplay loop muted class="doll-video">
+        <source src="image/doll360.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <!-- About Content -->
+<div class="about-container">
+  <div class="about-inner">
+    <section class="about-section">
+      
+      <!-- Top Line (flush with columns) -->
+      <div class="lines-top"></div>
+
+      <div class="about-content">
+        <div class="about-text">
+          <p>Hello and welcome to my website.</p>
+          <p>I'm an Eastern Europeanist, nuclear lawyer, and policy analyst, currently completing my ALM in International Relations at Harvard University—and I'm still at the beginning of my career.</p>
+          <p>My research centres on defence economics, defence technology, counter-terrorism, and all things nuclear—civilian and military programmes. All my research (even economic!) is built on strategic studies, and I use wargaming to test different theories. I speak three Slavic languages and have lived for extended periods across several CIS states, and it’s fair to say I know the region intimately.</p>
+          <p>I’ve worked on some remarkable projects and with outstanding organisations, where I’ve met some of the most brilliant people. Here, however, I showcase solely my personal work.</p>
+        </div>
+
+        <div class="about-image">
+          <img src="image/Photo-about_page-0001.jpg" alt="Ana Brown Photo" />
+        </div>
+      </div>
+
+      <!-- Bottom Line (flush with columns) -->
+      <div class="lines-bottom"></div>
+
+    </section>
+  </div>
+</div>
+
+
+  <!-- about Footer  -->
+  <footer class="footer-about">
+    Contact TBC
+  </footer>
+
+  
+  <!-- About Section end-->
+
+<!-- gradient bar -->
+
+
+  <div class="gradient-bar">
+    <div class="bar-1"></div>
+    <div class="bar-2"></div>
+    <div class="bar-3"></div>
+    <div class="bar-4"></div>
+  </div>
+<!-- gradient bar end -->
+
+  
+  <!-- Work Section -->
+ <!-- Work Section -->
+<section id="work" class="work-section">
+  <h2>Work</h2>
+
+  <!-- Dropdown Menu for Essays -->
+    <nav class="work-dropdown">
+  <button class="dropdown-btn" id="dropdownBtn">Jump to an Essay ▼</button>
+  <div class="dropdown-list" id="dropdownList">
+    <a href="#essay1">China’s Microchips in Russian Weapons</a>
+    <a href="#essay2">Nuclear Law in the Shadow of Security</a>
+    <a href="#essay3">Wargaming the Defense Tech Dilemma</a>
+  </div>
+    </nav>
+
+
+
+  <!-- Essay 1 -->
+  <div id="essay1" class="essay">
+    <h3>China’s Microchips in Russian Weapons: Supply Chains, Capabilities, and Surveillance Risks</h3>
+    <p>This is my latest paper, which addresses exactly what its title suggests. It examines China’s production of military-grade and off-the-shelf microchips, their supply to Russia, and the hypothetical possibility that these chips could be used for intelligence gathering targeting Russia. It’s a technical analysis of weapons systems that aims to determine whether the existing technical capabilities allow for such surveillance activities to occur. </p>
+    <p>This is the full research, a shorter version of which is published on Riddle.</p>
+    <a href="essay1.html" target="_blank" title="Open PDF Essay 1">
+      <img src="image/PDF_file_icon.svg.png" alt="PDF Icon for Essay 1" class="pdf-icon">
+    </a>
+       <div class="image-row">
+         <img src="image/doll image.jpg" alt="Static representation for Essay 2" class="static-image">
+         <img src="image/hand.jpg" alt="Static representation for Essay 2" class="static-image">
+      </div>
+
+  </div>
+
+  <!-- Essay 2 -->
+  <div id="essay2" class="essay">
+    <h3>Nuclear Law in the Shadow of Security</h3>
+    <p>A very lengthy and official title for my dissertation in Nuclear Law. What I’m really looking into is the violation of the NPT, the concept of the nuclear taboo, and the tension between international law and national security interests. It’s a hard-core analysis of how states justify actions that push legal boundaries and a critical examination of the practical limits of legal frameworks when confronted with security imperatives.</p>
+    <a href="essay2.html" target="_blank" title="Open PDF Essay 2">
+      <img src="image/PDF_file_icon.svg.png" alt="PDF Icon for Essay 2" class="pdf-icon">
+    </a>
+       <div class="video-side-by-side">
+      <video autoplay loop muted>
+        <source src="image/Atomic Bomb Test Video-main.mp4" type="video/mp4">
+      </video>
+      <video autoplay loop muted>
+        <source src="image/Atomic Bomb Test Video-main.mp4" type="video/mp4">
+      </video>
+    </div>
+   
+  </div>
+
+
+   <!-- Essay 3 -->
+  <div id="essay3" class="essay">
+    <h3>Wargaming the Defense Tech Dilemma</h3>
+    <p>It’s a wargaming scenario and thought experiment that is rootedin a defence economics dilemma: whether to keep investing in advanced technology that may have been compromisedand nearing obsolescence, or to shift to new technology lacking sufficient empirical data to prove its effectiveness. Budget constraints always complicate the decision-making process.</p>
+    <a href="essay3.html" target="_blank" title="Open PDF Essay 1">
+      <img src="image/PDF_file_icon.svg.png" alt="PDF Icon for Essay 1" class="pdf-icon">
+    </a>
+       <div class="image-row">
+         <img src="image/doll image.jpg" alt="Static representation for Essay 2" class="static-image">
+         <img src="image/hand.jpg" alt="Static representation for Essay 2" class="static-image">
+      </div>
+
+  </div>
+</section>
+
+
+
+<script>
+  const dropdownBtn = document.getElementById('dropdownBtn');
+  const dropdownList = document.getElementById('dropdownList');
+
+  // Toggle dropdown
+  dropdownBtn.addEventListener('click', function(event) {
+    event.stopPropagation(); // Prevent window click from immediately closing it
+    dropdownList.classList.toggle('show');
+  });
+
+  // Close dropdown when clicking outside
+  window.addEventListener('click', function() {
+    if (dropdownList.classList.contains('show')) {
+      dropdownList.classList.remove('show');
+    }
+  });
+</script>
+
+
+
+</body>
+</html>

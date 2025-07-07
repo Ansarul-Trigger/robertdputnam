@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Defence Economics Dilemma:Risk vs. Innovation</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="essy-container">
+    <div class="essay-head">
+  <img src="image/Logo-1-removebg-preview.png" alt="Logo" class="logoB" />
+  <div class="subtext">
+    <video autoplay loop muted class="doll-video">
+      <source src="image/doll360.mp4" type="video/mp4">
+    </video>
+  </div>
+ </div>
+
+
+<div class="defence-wrapper">
+  <div class="defence-section">
+    <div class="defence-content">
+      <h3 class="defence-title">Defence Economics Dilemma:<br>Risk vs. Innovation</h3>
+      <p>
+        It’s a wargaming scenario and thought experiment that tackles a defence economics dilemma: whether to keep investing in advanced technology that may have been compromised, or to shift to new technology lacking sufficient empirical data to prove its effectiveness. Budget constraints always complicate the decision-making process.
+      </p>
+       
+       <div>
+             <p class="pdf-link">
+                <img src="image/PDF_file_icon.svg.png" alt="PDF Icon for Essay 1" class="pdf-icon"><br>
+                <button onclick="verifyPassword()">Access PDF</button>
+                </p>
+
+                <!-- Hidden link that shows after correct password -->
+                <div id="pdf-link" style="display:none; margin-top:10px;">
+                <a href="files/research.pdf" target="_blank">Download Full PDF</a>
+                </div>
+
+      </div>
+
+    </div>
+
+    <div class="defence-image">
+      <img src="image/1_bofg0Sx6B9ph4IKVzF9b4w.webp" alt="Chessboard">
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+  function verifyPassword() {
+    const password = prompt("Please enter the password to access the PDF:");
+    const correctPassword = "YourPasswordHer"; // Change this to your password
+
+    if (password === correctPassword) {
+      document.getElementById('pdf-link').style.display = 'block';
+    } else {
+      alert("Incorrect password. Please try again.");
+    }
+  }
+</script>
+</body>
+</html>

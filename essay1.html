@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vulnerabilities in Russian Weapons Systems</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="essy-container">
+    <div class="essay-head">
+  <img src="image/Logo-1-removebg-preview.png" alt="Logo" class="logoB" />
+  <div class="subtext">
+    <video autoplay loop muted class="doll-video">
+      <source src="image/doll360.mp4" type="video/mp4">
+    </video>
+  </div>
+ </div>
+
+
+  <h2 class="main-title">Vulnerabilities in Russian Weapons Systems from Chinese Microelectronics</h2>
+
+  <div class="content">
+    <div class="column images">
+      <!-- Left dolls -->
+      <img src="image/doll image.jpg" alt="Doll">
+    </div>
+
+    <div class="column text">
+      <p>
+        This is my latest paper, which addresses exactly what its title suggests. It examines China's production of military-grade and off-the-shelf microchips, their supply to Russia, and the hypothetical possibility that these chips could be used for intelligence gathering targeting Russia. It's a technical analysis of weapons systems that aims to determine whether the existing technical capabilities allow for such surveillance activities to occur.
+      </p>
+      <p>
+        This is the full research, a shorter version of which is published on Riddle.
+      </p>
+      
+        <div>
+             <p class="pdf-link">
+                <img src="image/PDF_file_icon.svg.png" alt="PDF Icon for Essay 1" class="pdf-icon"><br>
+                <button onclick="verifyPassword()">Access PDF</button>
+                </p>
+
+                <!-- Hidden link that shows after correct password -->
+                <div id="pdf-link" style="display:none; margin-top:10px;">
+                <a href="files/research.pdf" target="_blank">Download Full PDF</a>
+                </div>
+
+      </div>
+         
+
+    </div>
+
+    <div class="column images">
+      <!-- Right dolls -->
+      <img src="image/hand.jpg" alt="Doll">
+    </div>
+  </div>
+</div>
+
+<script>
+  function verifyPassword() {
+    const password = prompt("Please enter the password to access the PDF:");
+    const correctPassword = "YourPasswordHer"; // Change this to your password
+
+    if (password === correctPassword) {
+      document.getElementById('pdf-link').style.display = 'block';
+    } else {
+      alert("Incorrect password. Please try again.");
+    }
+  }
+</script>
+</body>
+</html>
