@@ -440,6 +440,10 @@
   height: auto;
 }
 
+.st-img{
+      max-width: 400px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .essay-list {
@@ -629,3 +633,5 @@
     width: 90%;
   }
 }
+
+
